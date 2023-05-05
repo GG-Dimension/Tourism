@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourism</title>
+  <!-- meta tags -->
+  <meta property="og:title" content="Tourism">
+  <meta property="og:description" content="Explore the world with Tourism.">
+  <meta property="og:image" content="https://example.com/image.jpg">
+  <meta property="og:url" content="https://example.com">
+  <meta name="description" content="Explore the world with Tourism.">
+  <meta name="keywords" content="travel, tourism, adventure">
+  <meta name="robots" content="index,follow">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <!-- font awasome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- style css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a href="#"><img src="assets/img/logo & shapes/1.01_Logo.png" alt="Logo"></a>
+      <button class="navbar-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <ul class="navbar-links">
+      <li><a href="#" id="home">HOME</a></li>
+      <li><a href="#about-us">ABOUT US</a></li>
+      <li><a href="#our-services">OUR SERVICES</a></li>
+      <li><a href="#tour-package">TOUR PACKAGE</a></li>
+      <li><a href="#" id="apiButton">API</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Carousel -->
+<div class="slideshow-container">
+
+  <div class="slides fade">
+    <img src="assets/img/slider_images/Banner.png" style="width:100%" alt="Discover Greece">
+    <div class="text">
+      <img src="assets/img/slider_images/From $199-Person.png" class="tourPrice" alt="$199-Person">
+      <p class="mainText">Discover Greece</p>
+      <p class="secondaryText">TRAVEL WITH UNIQUE EXPERIENCE</p>
+    </div>
+  </div>
+
+  <div class="slides fade">
+    <img src="assets/img/slider_images/Banner1.png" style="width:100%" alt="Amazing Voyage">
+    <div class="text">
+      <img src="assets/img/slider_images/From $399-Person.png" class="tourPrice" alt="$199-Person">
+      <p class="mainText">Amazing Voyage</p>
+      <p class="secondaryText">TRAVEL WITH UNIQUE EXPERIENCE</p>
+    </div>
+  </div>
+
+  <div class="slides fade">
+    <img src="assets/img/slider_images/Banner2.png" style="width:100%" alt="Discover Greece">
+    <div class="text">
+      <img src="assets/img/slider_images/From $199-Person.png" class="tourPrice" alt="$199-Person">
+      <p class="mainText">Discover Greece</p>
+      <p class="secondaryText">TRAVEL WITH UNIQUE EXPERIENCE</p>
+    </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+  <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-arrow-right"></i></a>
+
+</div>
+<br>
+
+<!-- Main-Cards -->
+<div class="container-cards" id="about-us">
+  <div class="wrapper">
+    <div class="sideText">
+      <h4>DISCOVER</h4>
+      <h2>Our Hot Services</h2>
+      <img src="assets/img/logo & shapes/Shape.png" alt="">
+      <p>Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Ducimus adipisci expedita
+        nobis modi dignissimos ea, temporibus laborum standard
+      </p>
+    </div>
+    <div class="cardWrapper">
+      <!-- Cards are here -->
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-text">
+      <h4 class="modal-title"></h4>
+      <p class="modal-description"></p>
+    </div>
+  </div>
+</div>
+
+<!-- Video -->
+<div class="video-wrapper">
+  <div class="video-text">
+    <p class="discover">DISCOVER</p>
+    <h2>Watch Our Video Tour</h2>
+    <div>
+      <img src="assets/img/logo & shapes/Shape1.png">
+    </div>
+
+    <div class="videoWidth">
+      <video class="video" id="video" onclick="playpause()">
+        <source src="assets/video/greece1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div id="playpause_img" onclick="playpause()"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Counters -->
+<div class="counters">
+  <div class="box">
+    <img src="assets/img/counter_images/s1.png" alt="">
+    <h3>120859</h3>
+    <p>HAPPY TRAVELERS</p>
+  </div>
+  <div class="box">
+    <img src="assets/img/counter_images/s2.png" alt="">
+    <h3>2594</h3>
+    <p>SETISFIED TOURS</p>
+  </div>
+  <div class="box">
+    <img src="assets/img/counter_images/s3.png" alt="">
+    <h3>854</h3>
+    <p>DESTINATION</p>
+  </div>
+  <div class="box">
+    <img src="assets/img/counter_images/s4.png" alt="">
+    <h3>978</h3>
+    <p>HOTELS & RESORTS</p>
+  </div>
+</div>
+
+
+<!-- Popular tour package -->
+<div class="tour-header" id="our-services">
+  <p>WE OFFER</p>
+  <h2>Popular Tour Package</h2>
+  <img src="assets/img/logo & shapes/Shape.png" alt="">
+</div>
+
+<div class="tour">
+  <!-- Cards are here -->
+</div>
+
+
+<!-- Form -->
+<div class="form">
+  <div class="subscribe">
+    <h2>Get 10% Off on Your Next Travel</h2>
+    <p>Maximum discount 1000$ per person</p>
+    <input type="email" name="" id="email" placeholder="Enter your email" required>
+    <button id="subscribeBtn">Subscribe</button>
+    <p id="errorMsg" style="display:none">Email format is invalid</p>
+    <p id="successMsg" style="display:none;">You are subscribed!</p>
+  </div>
+</div>
+
+<!-- Happy-travelers -->
+<div class="happy-travelers" id="tour-package">
+  <div class="tour-header">
+    <p>OUR SMILES</p>
+    <h2>Happy Travelers</h2>
+    <img src="assets/img/logo & shapes/Shape.png" alt="">
+  </div>
+
+  <div class="card-container"></div>
+
+  <div class="plan-trip">
+    <h2>Ready to plan your trip?</h2>
+    <button>BOOK NOW</button>
+  </div>
+</div>
+
+<!-- Destination -->
+<div class="tour-header">
+  <p>DESTINATION</p>
+  <h2>Popular Tourism Countries</h2>
+  <img src="assets/img/logo & shapes/Shape.png" alt="">
+</div>
+
+<div class="destination">
+
+  <div class="destination-card">
+    <img src="assets/img/popularTours_images/popular.png" alt="">
+    <div class="price">
+      <div>
+        <h3>Thailand</h3>
+        <p>$900 - $1900</p>
+      </div>
+      <img src="assets/img/popularTours_images/rectangle.png" alt="">
+    </div>
+  </div>
+
+  <div class="destination-card">
+    <img src="assets/img/popularTours_images/popular1.png" alt="">
+    <div class="price">
+      <div>
+        <h3>Italy</h3>
+        <p>$700 - $2000</p>
+      </div>
+      <img src="assets/img/popularTours_images/rectangle.png" alt="">
+    </div>
+  </div>
+  <div class="destination-card">
+    <img src="assets/img/popularTours_images/popular2.png" alt="">
+    <div class="price">
+      <div>
+        <h3>Indonesia</h3>
+        <p>$300 - $1100</p>
+      </div>
+      <img src="assets/img/popularTours_images/rectangle.png" alt="">
+    </div>
+  </div>
+  <div class="destination-card">
+    <img src="assets/img/popularTours_images/popular.png" alt="">
+    <div class="price">
+      <div>
+        <h3>Singapore</h3>
+        <p>$1900 - $2700</p>
+      </div>
+      <img src="assets/img/popularTours_images/rectangle.png" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- Map -->
+<div class="map">
+  <div class="gmap_canvas"><iframe width="100%" height="435" id="gmap_canvas"
+      src="https://maps.google.com/maps?q=university of wisconsin green bay&t=&z=12&ie=UTF8&iwloc=&output=embed"
+      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">
+      2yu</a><br>
+    <style>
+      .mapouter {
+        position: relative;
+        text-align: right;
+        height: 435px;
+        width: 100%;
+      }
+    </style><a href="https://embedgooglemap.2yu.co">
+      html embed google map</a>
+    <style>
+      .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 435px;
+        width: 100%;
+      }
+    </style>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="footer-wrapper">
+    <div class="footerBox">
+      <h2>Quick Links</h2>
+
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Company</a></li>
+      <li><a href="#">Testimoials</a></li>
+      <li><a href="#">Infrastructure</a></li>
+
+    </div>
+    <div class="footerBox">
+      <h2>Support</h2>
+      <li><a href="#">Get Started</a></li>
+      <li><a href="#">Lorem</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Ipsum</a></li>
+
+    </div>
+    <div class="footerBox">
+      <h2>Address</h2>
+      <li><a href="#">14, 1 Ellis bridge ST</a></li>
+      <li><a href="#">auckland 3500. Australia</a></li>
+      <li><a href="#">+ 1234567890</a></li>
+      <li><a href="mailto:contactus@demo.com">contactus@demo.com</a></li>
+
+    </div>
+    <div class="footerBoxInput">
+      <h3>Subscribe to our newsletter</h3>
+      <div class="input-container">
+        <input type="email" placeholder="Your email" class="input-field" required>
+        <button class="input-button">ADD</button>
+      </div>
+      <p id="emailErrorMsg" style="display:none">Email format is invalid</p>
+      <p id="emailSuccessMsg" style="display:none;">You are subscribed!</p>
+    </div>
+  </div>
+  <div class="footerBottom">tourism © All Rights Reserved</div>
+</div>
+
+<!-- Back to top -->
+<button id="back-to-top-btn">
+  <span class="btn-icon"></span>
+</button>
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
